@@ -1,1 +1,1 @@
-export const SOCKET_URL = 'https://synchro-api-ea00.onrender.com:10000';
+export const SOCKET_URL = 'https://synchro-api-ea00.onrender.com';

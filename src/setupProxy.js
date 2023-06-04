@@ -4,7 +4,7 @@ module.exports = function (app) {
   app.use(
     ['/api/*'],
     createProxyMiddleware({
-      target: 'https://synchro-api-ea00.onrender.com:10000',
+      target: 'http://localhost:4000',
       changeOrigin: true,
     })
   );
